@@ -1,0 +1,61 @@
+    {
+        "apps" : [
+            {
+                "name"			: "TCC",
+                "script"    : "./product/1.0/src/TCCnode/app.js",
+                "cwd"       : "./product/1.0/src/TCCnode/",
+                "instances" : "1",
+                "exec_mode" : "fork"
+            },
+            {
+                "name"			: "MON",
+                "script"    : "./product/1.0/src/MONnode/app.js",
+                "cwd"       : "./product/1.0/src/MONnode/",
+                "instances" : "1",
+                "exec_mode" : "fork"
+            },
+            {
+                "name"			: "RTS",
+                "script"    : "./product/1.0/src/RTSnode/app.js",
+                "cwd"       : "./product/1.0/src/RTSnode/",
+                "instances" : "1",
+                "exec_mode" : "fork"
+            },
+            {
+                "name"			: "DBS",
+                "script"    : "./product/1.0/src/DBSnode/app.js",
+                "cwd"       : "./product/1.0/src/DBSnode/",
+                "instances" : "1",
+                "exec_mode" : "fork"
+            },
+            {
+                "name"			: "ARV",
+                "script"    : "./product/1.0/src/ARVnode/start.js",
+                "cwd"       : "./product/1.0/src/ARVnode/",
+                "instances" : "1",
+                "exec_mode" : "fork"
+            },
+            {
+                "name"			: "REP",
+                "script"    : "./product/1.0/src/REPnode/app.js",
+                "cwd"       : "./product/1.0/src/REPnode/",
+                "instances" : "1",
+                "exec_mode" : "fork"
+            },
+            {
+                "name"			: "DBB",
+                "script"    : "./product/1.0/src/DBBnode/app.js",
+                "cwd"       : "./product/1.0/src/DBBnode/",
+                "instances" : "1",
+                "exec_mode" : "fork"
+            },
+            {
+                "name"			: "DEV",
+                "script"    : "./product/1.0/src/DEVnode/app.js",
+                "cwd"       : "./product/1.0/src/DEVnode/",
+                "instances" : "1",
+                "exec_mode" : "fork"
+            }
+
+        ]
+    }
